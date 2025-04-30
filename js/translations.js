@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Mission & Vision
             'mission-title': 'NOTRE MISSION',
-            'mission-text': "MPEN (Ministère Prophétique des Enfants de Nehemie) a pour mission de former et d'équiper une génération de prophètes et voyants, ancrés dans la Parole de Dieu et sensibles à l'Esprit Saint, pour répondre à l'appel prophétique des derniers temps. Nous croyons que Dieu restaure et amplifie le ministère prophétique dans cette saison pour préparer l'Église à l'accomplissement de ses desseins.",
+            'mission-text': "MPEN (Mission Prophétique & Évangélique vers les Nations) a pour mission de former et d'équiper une génération de prophètes et voyants, ancrés dans la Parole de Dieu et sensibles à l'Esprit Saint, pour répondre à l'appel prophétique des derniers temps. Nous croyons que Dieu restaure et amplifie le ministère prophétique dans cette saison pour préparer l'Église à l'accomplissement de ses desseins.",
             'vision-title': 'NOTRE VISION',
             'vision-quote': '"Et dans les derniers jours, dit Dieu, je répandrai de mon Esprit sur toute chair; vos fils et vos filles prophétiseront, vos jeunes gens auront des visions, et vos vieillards auront des songes." - Actes 2:17',
             'vision-text': "Notre vision est de voir se lever une armée de prophètes et voyants, formés et équipés, qui porteront avec intégrité le message de Dieu à leur génération dans les églises, les communautés et les nations. Nous visons à restaurer, selon les Écritures, la place et la fonction du ministère prophétique dans le Corps de Christ.",
@@ -276,7 +276,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Legal page content
             'legal-title': "MENTIONS LÉGALES",
             'legal-publisher-title': "1. ÉDITEUR DU SITE",
-            'legal-publisher-text': "Le site www.mpen-ecole.com est édité par l'association MPEN (Ministère Prophétique des Enfants de Nehemie), association à but non lucratif régie par la loi du 1er juillet 1901.",
+            'legal-publisher-text': "Le site www.mpen-ecole.com est édité par l'association MPEN (Mission Prophétique & évangélique vers les Nations), association à but non lucratif régie par la loi du 1er juillet 1901.",
             'legal-address-label': "Siège social :",
             'legal-address': "5180 rue Queen-Mary Suite #200 Montreal, Quebec",
             'legal-phone-label': "Téléphone :",
@@ -288,9 +288,9 @@ document.addEventListener('DOMContentLoaded', () => {
             'legal-hosting-title': "2. HÉBERGEMENT",
             'legal-hosting-text': "Ce site est hébergé par :",
             'legal-host-name-label': "Nom de l'hébergeur :",
-            'legal-host-name': "OVH SAS",
+            'legal-host-name': "Github Pages",
             'legal-host-address-label': "Adresse :",
-            'legal-host-address': "2 rue Kellermann - 59100 Roubaix - France",
+            'legal-host-address': "xxxxxxxx",
             'legal-host-phone-label': "Téléphone :",
             'legal-host-website-label': "Site web :",
 
