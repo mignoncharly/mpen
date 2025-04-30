@@ -226,11 +226,11 @@ document.addEventListener('DOMContentLoaded', () => {
             'team-role-1': 'Fondatrice & Directrice',
             'team-bio-1': "Apôtre Christine Olinga a plus de 20 ans d'expérience dans le ministère prophétique. Elle est reconnue internationalement pour sa précision prophétique et son enseignement qui transforme des vies. Elle dirige également plusieurs églises en France et en Afrique.",
             'team-role-2': 'Directeur des Études',
-            'team-bio-2': "Pasteur David apporte une profondeur théologique et une compréhension approfondie des Écritures. Docteur en théologie, il veille à l'équilibre entre l'expérience prophétique et la solidité biblique dans notre programme.",
+            'team-bio-2': "Apôtre Christine Olinga a plus de 20 ans d'expérience dans le ministère prophétique. Elle est reconnue internationalement pour sa précision prophétique et son enseignement qui transforme des vies. Elle dirige également plusieurs églises en France et en Afrique.",
             'team-role-3': 'Responsable de la Formation Pratique',
-            'team-bio-3': "Prophétesse Marie excelle dans la formation pratique et l'activation des dons. Son approche pédagogique et sa patience ont aidé de nombreux étudiants à découvrir et développer leurs dons prophétiques.",
+            'team-bio-3': "Apôtre Christine Olinga a plus de 20 ans d'expérience dans le ministère prophétique. Elle est reconnue internationalement pour sa précision prophétique et son enseignement qui transforme des vies. Elle dirige également plusieurs églises en France et en Afrique.",
             'team-role-4': 'Responsable du Mentorat',
-            'team-bio-4': "Originaire de la République Démocratique du Congo, Prophète Emmanuel apporte une perspective internationale et une grande expérience du ministère prophétique en contexte missionnaire et interculturel.",
+            'team-bio-4': "Apôtre Christine Olinga a plus de 20 ans d'expérience dans le ministère prophétique. Elle est reconnue internationalement pour sa précision prophétique et son enseignement qui transforme des vies. Elle dirige également plusieurs églises en France et en Afrique.",
             'team-note': "En plus de notre équipe permanente, nous invitons régulièrement des intervenants invités, reconnus dans le domaine prophétique, pour enrichir la formation avec leurs perspectives et expériences.",
             
             // About testimonials
@@ -630,11 +630,11 @@ document.addEventListener('DOMContentLoaded', () => {
             'team-role-1': 'Founder & Director',
             'team-bio-1': "Apostle Christine Olinga has more than 20 years of experience in prophetic ministry. She is internationally recognized for her prophetic accuracy and life-transforming teaching. She also leads several churches in France and Africa.",
             'team-role-2': 'Director of Studies',
-            'team-bio-2': "Pastor David brings theological depth and a thorough understanding of Scripture. With a doctorate in theology, he ensures the balance between prophetic experience and biblical solidity in our program.",
+            'team-bio-2': "Apostle Christine Olinga has more than 20 years of experience in prophetic ministry. She is internationally recognized for her prophetic accuracy and life-transforming teaching. She also leads several churches in France and Africa.",
             'team-role-3': 'Head of Practical Training',
-            'team-bio-3': "Prophetess Marie excels in practical training and gift activation. Her pedagogical approach and patience have helped many students discover and develop their prophetic gifts.",
+            'team-bio-3': "Apostle Christine Olinga has more than 20 years of experience in prophetic ministry. She is internationally recognized for her prophetic accuracy and life-transforming teaching. She also leads several churches in France and Africa.",
             'team-role-4': 'Mentoring Coordinator',
-            'team-bio-4': "Originally from the Democratic Republic of Congo, Prophet Emmanuel brings an international perspective and extensive experience in prophetic ministry in missionary and intercultural contexts.",
+            'team-bio-4': "Apostle Christine Olinga has more than 20 years of experience in prophetic ministry. She is internationally recognized for her prophetic accuracy and life-transforming teaching. She also leads several churches in France and Africa.",
             'team-note': "In addition to our permanent team, we regularly invite guest speakers, recognized in the prophetic field, to enrich the training with their perspectives and experiences.",
             
             // About testimonials
