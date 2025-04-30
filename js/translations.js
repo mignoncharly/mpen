@@ -613,7 +613,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Mission & Vision
             'mission-title': 'OUR MISSION',
-            'mission-text': "MPEN (Prophetic Ministry of the Children of Nehemiah) has the mission to train and equip a generation of prophets and seers, anchored in the Word of God and sensitive to the Holy Spirit, to respond to the prophetic call of the last days. We believe that God is restoring and amplifying prophetic ministry in this season to prepare the Church for the fulfillment of His purposes.",
+            'mission-text': "MPEN (prophetic and evangelical mission to the nations) has the mission to train and equip a generation of prophets and seers, anchored in the Word of God and sensitive to the Holy Spirit, to respond to the prophetic call of the last days. We believe that God is restoring and amplifying prophetic ministry in this season to prepare the Church for the fulfillment of His purposes.",
             'vision-title': 'OUR VISION',
             'vision-quote': '"In the last days, God says, I will pour out my Spirit on all people. Your sons and daughters will prophesy, your young men will see visions, your old men will dream dreams." - Acts 2:17',
             'vision-text': "Our vision is to see an army of trained and equipped prophets and seers rise up, who will carry God's message with integrity to their generation in churches, communities, and nations. We aim to restore, according to Scripture, the place and function of prophetic ministry in the Body of Christ.",
