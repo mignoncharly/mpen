@@ -1,0 +1,269 @@
+/* 
+* MPEN - École des Prophètes et Voyants
+* Programme Page Styles
+* 
+* This stylesheet contains styles specific to the programme page.
+* It should be included after the main styles.css file.
+*/
+
+/* === Programme Overview Section === */
+.programme-overview {
+    padding: var(--spacing-xl) var(--spacing-sm);
+}
+
+.overview-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-lg);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.overview-text {
+    text-align: center;
+}
+
+.overview-text p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto var(--spacing-md);
+}
+
+.programme-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-md);
+}
+
+.stat-item {
+    text-align: center;
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius);
+    background-color: rgba(0, 82, 90, 0.05);
+    min-width: 120px;
+}
+
+.stat-number {
+    display: block;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-xs);
+}
+
+.stat-label {
+    font-size: 1.1rem;
+    color: var(--text-dark);
+}
+
+.overview-image {
+    width: 100%;
+    max-width: 600px;
+}
+
+.overview-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+/* === Programme Modules Section === */
+.programme-modules {
+    background-color: var(--bg-light);
+    padding: var(--spacing-xl) var(--spacing-sm);
+}
+
+.module-card {
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    margin-bottom: var(--spacing-lg);
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.module-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.module-header {
+    background-color: var(--secondary-color);
+    color: var(--text-light);
+    padding: var(--spacing-md);
+    position: relative;
+}
+
+.module-number {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    opacity: 0.3;
+}
+
+.module-title {
+    margin-bottom: var(--spacing-xs);
+    padding-right: 60px;
+    font-size: 1.5rem;
+}
+
+.module-duration {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.module-content {
+    padding: var(--spacing-md);
+}
+
+.module-description {
+    margin-bottom: var(--spacing-md);
+}
+
+.module-topics {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.module-topics li {
+    margin-bottom: var(--spacing-xs);
+}
+
+/* === Teaching Methods Section === */
+.teaching-methods {
+    padding: var(--spacing-xl) var(--spacing-sm);
+}
+
+.methods-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.method-card {
+    background-color: white;
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    transition: var(--transition);
+}
+
+.method-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.method-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto var(--spacing-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.method-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.method-card h3 {
+    color: var(--secondary-color);
+    margin-bottom: var(--spacing-sm);
+}
+
+/* === FAQ Section === */
+.faq-section {
+    background-color: var(--bg-light);
+    padding: var(--spacing-xl) var(--spacing-sm);
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: var(--spacing-sm);
+}
+
+.faq-question {
+    width: 100%;
+    text-align: left;
+    padding: var(--spacing-sm) 0;
+    background: none;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question::after {
+    content: '+';
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+.faq-question[aria-expanded="true"]::after {
+    transform: rotate(45deg);
+}
+
+.faq-answer {
+    padding: 0 0 var(--spacing-sm) 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.faq-answer.active {
+    max-height: 500px;
+}
+
+/* === Responsive Breakpoints === */
+@media (min-width: 768px) {
+    .overview-content {
+        flex-direction: row;
+    }
+    
+    .overview-text {
+        flex: 1;
+        text-align: left;
+    }
+    
+    .overview-text p {
+        margin-left: 0;
+    }
+    
+    .programme-stats {
+        justify-content: flex-start;
+    }
+    
+    .overview-image {
+        flex: 1;
+    }
+    
+    .methods-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 992px) {
+    .methods-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

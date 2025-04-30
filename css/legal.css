@@ -1,0 +1,108 @@
+/* 
+* MPEN - École des Prophètes et Voyants
+* Legal Pages Styles
+* 
+* This stylesheet contains styles specific to the legal pages (mentions légales and politique de confidentialité).
+* It should be included after the main styles.css file.
+*/
+
+/* === Legal Content Section === */
+.legal-content {
+    padding: var(--spacing-xl) var(--spacing-sm);
+    background-color: var(--bg-light);
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.privacy-intro {
+    margin-bottom: var(--spacing-lg);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: var(--spacing-md);
+}
+
+.privacy-intro p {
+    font-size: 1.1rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.legal-article {
+    margin-bottom: var(--spacing-lg);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: var(--spacing-md);
+}
+
+.legal-article:last-child {
+    border-bottom: none;
+}
+
+.legal-article h2 {
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.legal-group {
+    padding-left: var(--spacing-sm);
+}
+
+.legal-group p {
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.6;
+}
+
+.legal-details {
+    margin: var(--spacing-sm) 0;
+    padding-left: var(--spacing-md);
+}
+
+.legal-details li {
+    margin-bottom: var(--spacing-xs);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.legal-details strong {
+    min-width: 180px;
+    display: inline-block;
+    color: var(--text-dark);
+}
+
+.legal-list {
+    list-style: disc;
+    margin: var(--spacing-sm) 0;
+    padding-left: var(--spacing-lg);
+}
+
+.legal-list li {
+    margin-bottom: var(--spacing-xs);
+    line-height: 1.6;
+}
+
+.footer-legal a.active {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* === Responsive Breakpoints === */
+@media (min-width: 768px) {
+    .legal-content {
+        padding: var(--spacing-xl) var(--spacing-lg);
+    }
+    
+    .legal-article h2 {
+        font-size: 1.6rem;
+    }
+    
+    .legal-group {
+        padding-left: var(--spacing-md);
+    }
+}
+
+@media (min-width: 992px) {
+    .legal-content {
+        padding: var(--spacing-xl) var(--spacing-xl);
+    }
+}
